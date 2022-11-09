@@ -1,0 +1,25 @@
+@use '../../node_modules/normalize.css/normalize';
+@use './fonts.scss';
+@use './header.scss';
+@use './main.scss';
+@use './footer.scss';
+@use './media-query.scss';
+
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: url('../assets/images/img2.jpg') 0 0 / cover no-repeat;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
